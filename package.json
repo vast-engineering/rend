@@ -1,0 +1,34 @@
+{
+  "name": "rend",
+  "version": "0.0.0",
+  "description": "Abstraction layer for templating languages",
+  "main": "lib/rend.js",
+  "scripts": {
+    "test": "mocha --reporter spec --ui tdd test/rend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vast-engineering/rend.git"
+  },
+  "keywords": [
+    "templates",
+    "templating"
+  ],
+  "author": "Vast",
+  "contributors": [
+    "Eric Capps"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vast-engineering/rend/issues"
+  },
+  "homepage": "https://github.com/vast-engineering/rend",
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "lodash.isfunction": "^2.4.1",
+    "handlebars": "~1.3.0",
+    "async": "^0.9.0",
+    "findit": "^1.2.0",
+    "lodash": "^2.4.1"
+  }
+}

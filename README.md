@@ -1,4 +1,4 @@
-templater
-=========
+rend
+====
 
 Abstraction layer for templating languages
