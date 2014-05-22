@@ -1,6 +1,6 @@
 {
   "name": "rend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Abstraction layer for templating languages",
   "main": "lib/rend.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "lodash": "^2.4.1"
   },
   "dependencies": {
-    "lodash.isfunction": "^2.4.1"
+    "lodash.isfunction": "^2.4.1",
+    "lodash.defaults": "^2.4.1"
   }
 }
